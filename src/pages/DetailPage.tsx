@@ -113,6 +113,7 @@ const DetailPage = () => {
       <AspectRatio ratio={16 / 5}>
         <img
           src={restaurant.imageUrl}
+          alt="restaurant image"
           className="rounded-md object-cover h-full w-full"
         />
       </AspectRatio>
